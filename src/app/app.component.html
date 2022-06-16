@@ -1,0 +1,15 @@
+<mat-toolbar color="primary">
+  <button mat-icon-button class="example-icon" (click)="homeClick()" aria-label="Example icon-button with menu icon">
+    <mat-icon>pets</mat-icon>
+  </button>
+  <span>PetStore</span>
+  <span class="example-spacer"></span>
+  <button mat-button [matMenuTriggerFor]="menu">Menu</button>
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item (click)="homeClick()">Home</button>
+    <button mat-menu-item (click)="listClick()">List Pets</button>
+    <button mat-menu-item (click)="addClick()">Add a Pet</button>
+  </mat-menu>
+</mat-toolbar>
+
+<router-outlet></router-outlet>

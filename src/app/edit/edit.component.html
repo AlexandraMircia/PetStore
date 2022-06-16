@@ -1,0 +1,48 @@
+<h1 style="text-align:center;margin-top:20px;">Edit a Pet</h1>
+<div class="edit">
+    <form [formGroup]="petForm">
+        <mat-form-field appearance="outline">
+            <mat-label>Name</mat-label>
+            <input formControlName="petName" matInput type="text" placeholder="Edit pet's name">
+          </mat-form-field>
+
+        <mat-form-field appearance="outline">
+                    <mat-label>Status</mat-label>
+                    <mat-select formControlName="status" placeholder="Edit status">
+                        <mat-option value="Available">Available</mat-option>
+                        <mat-option value="Pending">Pending</mat-option>
+                        <mat-option value="Sold">Sold</mat-option>
+                    </mat-select>            
+        </mat-form-field>
+
+          <mat-form-field appearance="outline">
+            <mat-label>Category</mat-label>
+            <input formControlName="category" type="text" matInput placeholder="Ex: cat, dog etc.">
+          </mat-form-field>
+
+          <mat-form-field appearance="outline">
+            <mat-label>Breed</mat-label>
+            <input formControlName="breed" matInput type="text" placeholder="Edit pet's breed">
+          </mat-form-field>
+
+          <mat-form-field appearance="outline">
+            <mat-label>Age</mat-label>
+            <input formControlName="age" matInput type="number" placeholder="Edit pet's age">
+          </mat-form-field>
+
+          <mat-form-field appearance="outline">
+            <mat-label>Image</mat-label>
+            <input formControlName="image" matInput placeholder="Edit link to pet's image">
+          </mat-form-field>
+
+          
+
+    </form>
+    <div mat-dialog-action [align]="'end'">
+    <button mat-raised-button color="warn" mat-dialog-close>Close</button>
+    <button style="margin-left:8px;" mat-raised-button color="primary" (click)="updatePet()" >Update</button>
+
+</div>
+</div>
+
+

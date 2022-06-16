@@ -1,0 +1,43 @@
+<h1 style="text-align:center;margin-top:20px;">View a Pet</h1>
+<div mat-dialog-content>
+  <form [formGroup]="petForm">
+    <mat-form-field appearance="outline">
+        <mat-label>Name</mat-label>
+        <input formControlName="petName" matInput type="text" placeholder="Pet's name not found." readonly="">
+      </mat-form-field>
+
+    <mat-form-field appearance="outline">
+                <mat-label>Status</mat-label>
+                <input formControlName="status" matInput type="text" placeholder="Pet's status not found." readonly="">
+                
+                        
+    </mat-form-field>
+
+      <mat-form-field appearance="outline">
+        <mat-label>Category</mat-label>
+        <input formControlName="category" type="text" matInput placeholder="Pet's category not found." readonly="">
+      </mat-form-field>
+
+      <mat-form-field appearance="outline">
+        <mat-label>Breed</mat-label>
+        <input formControlName="breed" matInput type="text" placeholder="Pet's breed not found." readonly="">
+      </mat-form-field>
+
+      <mat-form-field appearance="outline">
+        <mat-label>Age</mat-label>
+        <input formControlName="age" matInput type="number" placeholder="Pet's age not found." readonly="">
+      </mat-form-field>
+
+      <img src="{{imgSrc}}" alt="Image not found" width="100%">
+
+      
+
+</form>
+
+</div>
+
+<div mat-dialog-action [align]="'end'">
+  <button mat-raised-button color="warn" mat-dialog-close>Close</button>
+ 
+
+</div>

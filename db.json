@@ -1,0 +1,68 @@
+{
+  "petList": [
+    {
+      "petName": "Mia",
+      "status": "Available",
+      "category": "Cat",
+      "breed": "British Shorthair",
+      "age": 2,
+      "image": "https://britishcats.ro/wp-content/uploads/2020/06/pui-british-shorthair-bucuresti-400x224.jpg",
+      "id": 1
+    },
+    {
+      "petName": "Rex",
+      "status": "Pending",
+      "category": "Dog",
+      "breed": "Golder Retriever",
+      "age": 4,
+      "image": "https://www.animalepierdute.ro/wp-content/uploads/2019/08/golden-retriver-caine-de-rasa.jpg",
+      "id": 2
+    },
+    {
+      "petName": "Max",
+      "status": "Sold",
+      "category": "",
+      "breed": "",
+      "age": "",
+      "image": "",
+      "id": 3
+    },
+    {
+      "petName": "Cici",
+      "status": "Pending",
+      "category": "Parrot",
+      "breed": "",
+      "age": 6,
+      "image": "https://www.thesprucepets.com/thmb/JPj64QXhXciiXesjdQ_4liIKJD4=/4224x3168/smart/filters:no_upscale()/pet-parrot-on-human-hand-1022424278-5c3ded0ac9e77c00016e6e2b.jpg",
+      "id": 4
+    },
+    {
+      "petName": "Dragon",
+      "status": "Available",
+      "category": "Lizard",
+      "breed": "Bearded Dragon",
+      "age": "",
+      "image": "https://thumbs.dreamstime.com/b/bearded-dragon-pogonas-genus-reptiles-containing-eight-lizard-species-which-often-known-common-name-bearded-169373430.jpg",
+      "id": 5
+    },
+    {
+      "petName": "Steve",
+      "status": "Sold",
+      "category": "Hamster",
+      "breed": "",
+      "age": "",
+      "image": "https://assets.petco.com/petco/image/upload/c_pad,dpr_1.0,f_auto,q_auto,h_636,w_636/c_pad,h_636,w_636/135690-Center-2",
+      "id": 6
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

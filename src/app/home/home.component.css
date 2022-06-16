@@ -1,0 +1,10 @@
+.banner{
+    height: 700px;
+    background:linear-gradient( rgba(0,0,250,0.25), rgba(250,180,125,0.25)),
+    url(https://source.unsplash.com/1600x1050/?pet);
+
+    color:white;
+    text-align: center;
+    text-shadow:2px 2px #1d1f20;
+}
+
